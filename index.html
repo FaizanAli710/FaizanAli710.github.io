@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Faizan Ali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f02000c8bb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="navbar-div">
+        <a href="#" class="navbar-link">About</a>
+        <a href="#" class="navbar-link">Work</a>
+        <a href="#" class="navbar-link">Blog</a>
+        <a href="#" class="navbar-link-button">Contact Me</a>
+    </div>
+    <hr id="line1">
+    <div id="backdrop">
+        <div id="backdrop-leftcol">
+            <h2>Hello, I am</h2>
+            <h1>Faizan Ali</h1>
+            <h3>And I am a <span>Web Developer</span></h3>
+            <p>I am an undergraduate student majoring in Electrical Engineering at Lahore University of Management Sciences.</p>
+            <a href="#"><button id="resume-button">See My Resume</button></a>
+        </div>
+
+        <div id="backdrop-rightcol">
+            <img src="pic.png" class="dp">
+        </div>
+    </div>
+
+    <section id="recent-blog-posts">
+        <div id="recent-blog-posts-header">
+            <h4>Recent Posts</h4>
+            <a href="#">View All</a>
+        </div>
+
+        <div id="card-container">
+            <div class="card">
+                <h2>Creating a Function Generator</h2>
+                <span>28 April 2022</span>
+                <span> | </span>
+                <span>Circuits</span>
+                <p>A function generator is usually a piece of electronic test equipment or software used to generate different types of electrical waveforms over a wide range of frequencies. Some of the most common waveforms produced by the function generator are the sine wave, square wave, triangular wave and sawtooth shapes. These waveforms can be either repetitive or single-shot (which requires an internal or external trigger source).Integrated circuits used to generate waveforms may also be described as function generator ICs.</p>
+            </div>
+    
+            <div class="card">
+                <h2>Designing an Intelligent Traffic Signal</h2>
+                <span>15 March 2022</span>
+                <span> | </span>
+                <span>Digital Logic</span>
+                <p>The target of the project is to build an intelligent traffic signal for a four-way intersection. Such a system will help reduce traffic congestion in busy areas and enhance public transport efficiency. It will achieve such a feat by scaling the waiting times at each signal with their respective traffic load. The intuition behind our intelligent traffic signal design is based on using a 2-bit
+                    counter that loops around 0 to 3 (road 0, road 1, road 2, road 3 and reset through
+                    a 4 state catcher) to cycle around the four roads, one by one. The 2-bit counter is
+                    operated by a 0.2 Hz clock, meaning it will increment after every 5 seconds. In
+                    other words, during the cycling process, it will stay on each road for 5 seconds
+                    before moving to the next. The output of the counter will be fed into a 2-to-4
+                    decoder to extract the four minterms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-works">
+        <h4>Featured Works</h4>
+        <div class="horizontal-card">
+            <img src="charger.jpg" class="pic">
+            <div>
+                <h2 class="heading2">Creating a Wireless Charger</h2>
+                <span class="pill">2022</span>
+                <span class="dashboard">Dashboard</span>
+                <p id="para">Smartphones have become an integral part of our daily lives and thus, need to be functional all
+                    the time. However, like most portable devices, smartphones are battery-powered. This means
+                    that they must be recharged. The conventional way of charging a smartphone would be to use the
+                    traditional wired chargers. Wired chargers can be a nuisance, since you not only have to carry
+                    them everywhere but also look for one that matches the USB port on your smartphone. A simple
+                    solution to this problem would be to remove the need for wires by making use of the concept of
+                    wireless charging. Therefore, we decided to create a wireless charger capable of charging a
+                    smartphone.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="horizontal-card">
+            <img src="spacesettlement.jpg" class="pic">
+            <div>
+                <h2 class="heading2">Space Settlement Design</h2>
+                <span class="pill">2018</span>
+                <span class="dashboard">Dashboard</span>
+                <p id="para">Scientists believe that once the first settlement is built in space, and a mining, refining, manufacturing, and transportation infrastructure is established, economics and ingenuity will enable large settlements to be built in fewer than 15 years. This is akin to a “Southern California freeway phenomenon”, wherein a new freeway is built into a remote area with very little population, and in just a few years the freeway is clogged with traffic because the access it provides enables communities and businesses to be established on its flanks. Having infrastructure in place makes it easier to get more infrastructure in place.</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="social-media-links">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </section>
+
+    <p style="text-align: center; font-weight: 400; font-size: 14px; color: rgb(83, 70, 70); ">Copyright © 2022 Faizan Ali</p>
+</body>
+</html>
